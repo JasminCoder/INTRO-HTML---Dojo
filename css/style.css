@@ -1,0 +1,159 @@
+/*basicos 
+elementos (etiquetas){
+    propiedades: valor;
+}
+
+.clase {
+} . + nombre clase
+
+#id {
+} # + nombre id
+*/
+
+
+
+h2 {
+    color: rgb(0, 255, 64);
+}
+
+.azul {
+    color: rgb(255, 145, 0);
+}
+
+#h1_id {
+    font-size: 80px;
+    background: blueviolet;
+}
+
+.h1_class {
+    font-size: 200px;
+}
+
+.parrafo strong { /*Selecciono un strong que está adentro de una clase parrafo*/
+    text-transform: uppercase;
+}
+
+.contenedor > h4 { /*Descendiente directo de contenedor que tiene la etiqueta h4*/
+    text-decoration: underline;
+}
+
+h2.azul { /*Selecciona el elemento que tiene AMBOS selectores*/
+    color: rgb(44, 2, 199);
+}
+
+h2.azul#l2 {
+    color: yellow;
+}
+
+input[type="text"] {
+    width: 350px;
+}
+
+input[type="number"]{
+    height: 50px;
+}
+
+input, textarea { /* Selecciona los input Y los textareas */
+    border: 3px solid magenta;
+}
+
+/*formas de poner color*/
+.color {
+    color: red; /*rgb (85,11,11), #ff0000*/
+}
+
+/* texto*/
+.texto {
+text-align: center; /*left, rigth, center, justify*/
+text-decoration: underline; /*underline, line-trougth, none, overline*/
+font-style: italic; /*italic, normal*/
+font-weight: bold; /*100, 200, bold, ligth*/
+font-size: 30px; /*px, pt, em*/
+}
+
+/*tamaños*/
+.tamaño {
+    background-color: aquamarine;
+    width: 400px;
+    height: 50px;
+}
+
+/*background*/
+.background {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: beige;
+    background-image: url("../imagenes/colibri.jfif");
+    background-size: cover; /*auto, cover-> Estira la imagen para que cubra todo el contenedor verticalmente, 
+    100%-> Estira la imagen para que cubra el contenedor horizontalmente*/
+    background-repeat: no-repeat; /*no repetir la imagen*/
+}
+
+.img_mariposa {
+    width: 100%;
+}
+
+#box_model {
+    width: 100px;
+    height: 100px;
+    background-color:blueviolet;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 25px;
+}
+
+.h2_inline {
+    display: inline; /*despliega los elementos en 1 linea*/
+}
+
+.block {
+    display: block; /*despliega los elementos como bloque.. Es decir, q comienzan del principio de la pag al ancho total*/
+}
+
+.flag {
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.div1 {
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;  
+    background-color: rgb(73, 4, 138);  
+    display: inline-block;
+}
+
+.div2 {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;  
+    background-color: #80003c;  
+    display: inline-block;
+}
+
+.div3 {
+    width: 250px;
+    height: 80px;
+    border: 1px solid black;  
+    background-color: orange;  
+    display: inline-block;
+}
+
+.vertical_aling {
+    vertical-align: top;
+    width: 100px;
+}
